@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLLContracts\BLLContracts.csproj" />
+    <ProjectReference Include="..\ChainOfResponsibilityExamlpe.Entities\ChainOfResponsibilityExamlpe.Entities.csproj" />
+    <ProjectReference Include="..\DaoContracts\DaoContracts.csproj" />
+    <ProjectReference Include="..\UserDao\UserDao.csproj" />
+    <ProjectReference Include="..\UserLogic\UserLogic.csproj" />
+  </ItemGroup>
+
+</Project>
